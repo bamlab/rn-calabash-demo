@@ -623,6 +623,8 @@
 					"-ObjC",
 					"-framework",
 					CFNetwork,
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
 				);
 				PRODUCT_NAME = RNCalabashDemo;
 			};
